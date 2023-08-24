@@ -1,0 +1,25 @@
+{
+    "id": 1,
+    "image": "https://bronze-magnetic-dove-193.mypinata.cloud/ipfs/QmcW3yv3ghFizRZQBsthDnHNJTumeERpcAVk9GrFzyxpoZ/1.png",
+    "token_id": "10",
+    "background_color": null,
+    "animation_url": null,
+    "youtube_url": null,
+    "name": "1st",
+    "description": "Space Dog Issue 1",
+    "external_url": null,
+    "attributes" : [
+        {
+            "trait_type": "type",
+            "value": "cover"
+        },
+        {
+            "trait_type": "speed",
+            "value": "3"
+        },
+        {
+            "trait_type": "class",
+            "value": "defence"
+        }
+    ]
+}

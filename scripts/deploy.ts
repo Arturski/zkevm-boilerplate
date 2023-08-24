@@ -16,11 +16,13 @@ async function deploy() {
   const MyERC721: MyERC721__factory = await ethers.getContractFactory(
     "MyERC721"
   );
+
+
   const contract: MyERC721 = await MyERC721.connect(deployer).deploy(
     deployer.address, // owner
-    "Imaginary Immutable Iguanas", // name
-    "III", // symbol
-    "https://example-base-uri.com/", // baseURI
+    "Space Dogs", // name
+    "zkSD", // symbol
+    "https://bronze-magnetic-dove-193.mypinata.cloud/ipfs/QmeGuxTNh6JVhHeFEKEPnawZjR8ZifUcyCurQcKM3eRs7f/nft-metadata/", // baseURI
     "https://example-contract-uri.com/", // contractURI
     deployer.address, // royalty recipient
     ethers.BigNumber.from("2000"), // fee numerator
@@ -28,7 +30,7 @@ async function deploy() {
   await contract.deployed();
 
   // log deployed contract address
-  console.log(`MyERC721 contract deployed to ${contract.address}`);
+  console.log(`Spacedogs deployed to ${contract.address}`);
 }
 
 deploy().catch((error) => {

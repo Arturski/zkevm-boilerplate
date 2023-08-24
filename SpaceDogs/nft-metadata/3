@@ -1,0 +1,25 @@
+{
+    "id": 3,
+    "image": "https://bronze-magnetic-dove-193.mypinata.cloud/ipfs/QmcW3yv3ghFizRZQBsthDnHNJTumeERpcAVk9GrFzyxpoZ/3.png",
+    "token_id": "3",
+    "background_color": null,
+    "animation_url": null,
+    "youtube_url": null,
+    "name": "3rd",
+    "description": "Space Dog Issue 3",
+    "external_url": null,
+    "attributes": [
+        {
+            "trait_type": "type",
+            "value": "Robot Dog"
+        },
+        {
+            "trait_type": "speed",
+            "value": "2"
+        },
+        {
+            "trait_type": "class",
+            "value": "defence"
+        }
+    ]
+}
